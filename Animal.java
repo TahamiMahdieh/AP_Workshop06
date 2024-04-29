@@ -1,7 +1,6 @@
 public abstract class Animal {
-    private String name;
-    private int age;
-    private String info;
+    protected String name;
+    protected int age;
 
 
     public int getAge() {
@@ -15,11 +14,5 @@ public abstract class Animal {
     }
     public void setName(String name) {
         this.name = name;
-    }
-    public String getInfo() {
-        return info;
-    }
-    public void setInfo(String info) {
-        this.info = info;
     }
 }
